@@ -22,13 +22,13 @@ jobs:
           node-version: 18
           cache: npm
       - name: install
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run docs:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: docs/.vitepress/dist
+          path: blog/.vitepress/dist
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
