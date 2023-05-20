@@ -2,6 +2,7 @@
 date: 2023-05-19
 title: Welcome Readers
 ---
+# Welcome Readers
 
 Hello, Dear Readers! I'm starting a journey into Large Language Models (LLMs) and generative AI. As I learn, I'll share my thoughts and experiences with you. From reading research papers and testing applications, to attempting to build my own AI models, we will explore this field together.
 
