@@ -14,10 +14,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'May 2023',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Some Early Experiments', link: '/posts/may_2023/early-experiments' },
         ]
       }
     ],
