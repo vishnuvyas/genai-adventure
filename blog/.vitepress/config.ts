@@ -15,7 +15,12 @@ export default defineConfig({
     sidebar: [
       {
         text: 'May 2023',
+        collapsed: false,
         items: [
+          {
+            text: 'Less Is More - LIMA Deep Dive',
+            link: '/posts/may_2023/less-is-more-lima'
+          },
           { text: 'Some Early Experiments', link: '/posts/may_2023/early-experiments' },
         ]
       }
